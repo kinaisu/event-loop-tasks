@@ -45,3 +45,15 @@ console.log('script end');
 'then 2'
 'setTimeout'
  */
+
+/* Результат:
+script start
+a1 start
+a2
+promise executor
+script end
+a1 end
+then 1
+then 2
+setTimeout
+ */
