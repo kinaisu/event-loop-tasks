@@ -9,7 +9,7 @@ p.then(() => console.log('a'))
 
 p.then(() => {
     console.log('x');
-    return Promise.resolve('!');
+    return '!';
 }).then(v => console.log('y', v));
 
 /* Моє передбачення:
@@ -42,5 +42,22 @@ y !
  */
 
 /* Результат:
+"return Promise.resolve('!')"
+1
+a
+x
+2
+b
+3
+y !
+
+"return '!'"
+1
+a
+x
+2
+b
+y !
+3
 
  */
