@@ -43,5 +43,14 @@ par: 300
  */
 
 /* Результат:
+resolved a
+resolved b
+resolved c
+seq: 621.634ms
+resolved z
+resolved y
+resolved x
+[ 'x', 'y', 'z' ]
+par: 305.144ms
 
  */
