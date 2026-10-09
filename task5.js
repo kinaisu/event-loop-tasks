@@ -43,5 +43,18 @@ caught 3: rethrow
  */
 
 /* Результат:
+after call
+caught 1: boom
+finally
+caught 1: boom
+finally
+caught 3: rethrow
+/Volumes/Transend/fullstack-mentorship/event-loop-tasks/task5.js:6
+        throw new Error('rethrow');
+              ^
+
+Error: rethrow
+    at f (/Volumes/Transend/fullstack-mentorship/event-loop-tasks/task5.js:6:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
 
  */
